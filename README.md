@@ -1,5 +1,7 @@
 # Z80MachineCodeTools
-Z80 Machine Code Editor, Monitor and machine code programs
+Z80 Machine Code Editor, Monitor and machine code programs.
+
+The Editor and Monitor tools are written in Sinclair BASIC and are designed to be used to enter, run, edit and monitor Z80 assembler programs.
 
 ## Z80/Z80A Machine Language Editor
 
