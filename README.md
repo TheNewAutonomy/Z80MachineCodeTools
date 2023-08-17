@@ -3,6 +3,14 @@ Z80 Machine Code Editor, Monitor and machine code programs.
 
 The Editor and Monitor tools are written in Sinclair BASIC and are designed to be used to enter, run, edit and monitor Z80 assembler programs.
 
+Since a full assembler takes too much memory it's good practice to assemble code by hand for optimal performance.
+Alternatively, run an assembler in Linux, such as pasmo.
+https://manpages.ubuntu.com/manpages/jammy/en/man1/pasmo.1.html
+
+ie.
+```
+$ pasmo --tap 64.asm 64.tap
+```
 ## Z80/Z80A Machine Language Editor
 
 This is a machine code editor for the Z80 chip that supports the following:
