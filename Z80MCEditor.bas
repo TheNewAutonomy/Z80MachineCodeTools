@@ -112,7 +112,7 @@
 5320 POKE G, V : LET G =G+on
 5330 IF CJ = on THEN POKE G, ja- INT (ja/qk)*qk : LET G = G+on : POKE G, INT (ja/qk) : LET G = G+on : GO TO 5360 
 5340 IF dd  < ze THEN LET dp = -dp
-4350 LET dp = dp-tw : POKE G, dp : LET G = G+on
+5350 LET dp = dp-tw : POKE G, dp : LET G = G+on
 5360 PRINT "ok"
 5370 GO TO 5470
 5380 FOR I = on TO 7 STEP tw
